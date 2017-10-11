@@ -1,0 +1,164 @@
+/* Root Style */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* HTML 5 Tags */
+h1 {
+  font-size: 2.0em;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+h2 {
+  font-size: 2.0rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2rem;
+  margin: 0 0 1rem 0;
+  font-family: 'Raleway', sans-serif;
+}
+a {
+  color: rgba(0, 0, 0, 0.97);
+  font-weight: 700;
+}
+
+/* Components */
+header,
+footer {background-color: #7373C4;}
+
+
+/* Color */
+.dark {color: rgba(0, 0, 0, 0.87)}
+.light {color: rgba(255, 255, 255, 1)}
+
+/* Spacing */
+.content {padding: 3rem 6rem;}
+.section {padding: 0 0 64px 0;}
+
+/* --- Special -- */
+
+/* Project feature */
+.feature {
+  width: calc(1024px * .75);
+  height: calc(500px * .75);
+  margin: 0 0 1em 0;
+}
+.fancybutton {
+  padding: 32px 0 0 0;
+}
+.fancybutton a{
+  background: #E0E0E0;
+  padding: 12px 24px;
+  margin: 0 auto;
+  min-width: 100px;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+.fancybutton a:hover {
+  background: #BDBDBD;
+}
+
+.avi {
+  height: 200px;
+  width: 200px;
+}
+
+/* Boxes */
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  margin-bottom: 3rem;
+  padding: 0 2rem 0 0;
+}
+.box img {
+  width: calc(1024px / 3);
+  height: calc(500px / 3);
+}
+.box h3 {
+  margin: 0.8rem 0 0 0;
+}
+.long img {
+  width: calc(1080px / 4);
+  height: calc(1920px / 4);
+}
+
+/* Path */
+.path,
+.path a,
+.pathlink {
+  text-decoration: none;
+}
+.path .pathtext:hover,
+.pathlink:hover {
+  text-decoration: underline;
+}
+
+
+/* Fancy Link */
+.fancylink {
+  text-decoration: underline;
+}
+.fancylink:hover {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.67);
+}
+
+/* Love */
+.love {
+  color: #DA4D4D;
+}
+.endline {
+  text-align: center;
+}
+
+
+/* Misc */
+.halfwidthtext {
+  padding: 0 0 0 16px;
+  font-size: 1.5rem;
+  max-width: 40rem;
+}
+.picwithtext {
+  display: flex;
+}
+.strike {
+  text-decoration: line-through;
+}
+
+/* Mobile */
+@media only screen and (max-width: 920px) {
+  .feature {
+    width: calc(1024px * .45);
+    height: calc(500px * .45);
+  }
+  .box img {
+    width: calc(1024px / 4);
+    height: calc(500px / 4);
+  }
+  .long img {
+    width: calc(1080px / 6);
+    height: calc(1920px / 6);
+  }
+}
