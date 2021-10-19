@@ -1,0 +1,42 @@
+html {
+  margin: 0;
+  background: rgb(25, 31, 25);
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 60%;
+  margin: 64px auto;
+  text-align: center;
+}
+
+header h1, header h2 {
+  text-transform: lowercase;
+}
+
+header h1 { 
+  font-size: 64px;
+  margin-block-end: 0;
+}
+
+header h2 {
+  margin: 0;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 28px;
+}
+
+header h3 a {
+  margin: 0 8px;
+  color: #fff;
+  font-weight: 400;
+}
+
+main {
+  text-align: center;
+}
+
+main .hint {
+  color: rgb(157, 157, 157);
+}
